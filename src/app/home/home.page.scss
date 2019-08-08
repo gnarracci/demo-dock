@@ -1,1 +1,51 @@
+.box {
+    height: 100px;
+    background-color:#222428;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
 
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+.card-a {
+    display: inline-block;
+    background-color:#222428;
+    height: 100%;
+    width: 100px;
+}
+
+.card-b {
+    display: inline-block;
+    background-color:#222428;
+    height: 100%;
+    width: 100px;
+}
+
+.card-c {
+    display: inline-block;
+    background-color:#222428;
+    height: 100%;
+    width: 100px;
+}
+
+#dock {
+    width:100%;
+    bottom:0px;
+    position:absolute;
+    left:0px;
+}
+
+.dock-container {
+    position:absolute;
+    height: 100px;
+    //background: url(../../assets/dock-bg2.gif);
+}
+
+.a.card-a a.card-b a.card-c{
+    border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
